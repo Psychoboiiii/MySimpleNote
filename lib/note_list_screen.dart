@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'database_helper.dart';
 import 'note.dart';
-import 'note_detail_screen.dart'; // Adjust import path if necessary
+import 'note_detail_screen.dart';
 
 class NoteListScreen extends StatefulWidget {
   const NoteListScreen({super.key});

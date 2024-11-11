@@ -26,10 +26,10 @@ class DatabaseHelper {
 
     String path; // initiate database path var
     if (kIsWeb) {
-      // Web-specific database path (for web platforms, this is the db path)
+
       path = 'notes_db.db';
     } else {
-      // Mobile/desktop path (for mobile/desktop platforms, this is the db path)
+
       path = await getDatabasesPath();
       path = join(path, 'notes_db.db');
     }
